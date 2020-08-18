@@ -1,0 +1,74 @@
+<!doctype html>
+<html ⚡4ads>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>AMP banner</title>
+    <script async src="https://cdn.ampproject.org/amp4ads-v0.js"></script>
+    <style amp4ads-boilerplate>body{position: relative;}</style>
+    <style amp-custom>
+        .banner {
+            width: 320px;
+            height: 640px;
+            margin: auto;
+            position: relative;
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: #222 ;
+        }
+
+        .banner-background {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.85;
+        }
+
+        .banner-content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            width: 75%;
+        }
+
+        .banner-title {
+            color: white;
+            font-weight: 900;
+            font-size: 2.5rem;
+            font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .banner-btn {
+            background-color: #ffea28;
+            color: #333;
+            padding: 0.75rem 1.25rem;
+            border: none;
+            box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+            font-size: 1.25rem;
+            font-family: 'Roboto Condensed', sans-serif;
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+      
+<div class="banner">
+    <a href="http://www.decathlon.cz" target="_blank">
+        <amp-img src="img/banner-bg.jpg" class="banner-img" width="320" height="640" alt="banner" ></amp-img>
+        <div class="banner-content">
+            <h1 class="banner-title">Nejlepší bike na trail!</h1>
+            <button class="banner-btn">
+                Chci vyrazit!
+            </button>
+        </div>
+    </a>
+    <amp-pixel src="https://www.amp.dev/tracker/foo"></amp-pixel>
+</div>
+
+</body>
+</html>
