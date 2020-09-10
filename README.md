@@ -1,31 +1,25 @@
 # Školení Bannery
 
-<!-- 
-[Všechny prezentace ke stažení](https://drive.google.com/drive/folders/1a5lHOmBtG3NI7lD9ZqZC2fqsYcI-cztc?usp=sharing)
+ 
+[Všechny prezentace ke stažení](https://docs.google.com/presentation/d/1gbv50MFy3B1WdsRVjBvKf1GY24adSWG1WYhXlqmVVis/edit?usp=sharing)
 
 
 ## Obsah školení
 
-### HTML 5
-
-[Prezentace](https://docs.google.com/presentation/d/1b4vglJukNKgw86_oSZLcwl86C0jwxZ-xHFkVRRvQ-5Y/edit?usp=sharing)
-
-- HTML5 sémantika pro obsah
-- HTML5 formuláře
-- Preloading
-- Interaktivita - canvas, video, obrázky
-- Microdata
-- Local storage, session storage
-- Relační DB - IndexedDB
-- WebAPI
-- PWA, ServiceWorker
-
+- HTML4 versus HTML5
+- HTML a CSS opakování
+- CSS animace
+- Jednoduchý HTML5 banner
+- Paralax efekt
+- Interscroller
+- Slider
+- AMP bannery
+- Další nástroje - Google Webdesigner, Adobe Animate
 
 ## Jak to bude probíhat
 
 Většina praktických ukázek bude standardní HTML a CSS kód, který lze zobrazit v jakémkoliv editoru kódu (lektor používá VS Code).
-Některé ukázky kódu budou ale využívat nástroj **Gulp** pro automatizaci zpracování kódu. Pokud si je budete chtít vyzkoušet prakticky, pak bude nutné mít na vašem počítači nainstalovaný systém **Node.js** (včetně správce balíčků **npm**) a spouštěč úloh **Gulp**.
-
+<!--
 ### Instalace Node.js
 
 Otevřete si příkazovou řádku a zkuste napsat: `node --version`
