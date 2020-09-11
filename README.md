@@ -1,8 +1,6 @@
 # Školení Bannery
 
- 
-[Všechny prezentace ke stažení](https://docs.google.com/presentation/d/1gbv50MFy3B1WdsRVjBvKf1GY24adSWG1WYhXlqmVVis/edit?usp=sharing)
-
+[Prezentace](https://docs.google.com/presentation/d/1gbv50MFy3B1WdsRVjBvKf1GY24adSWG1WYhXlqmVVis/edit?usp=sharing)
 
 ## Obsah školení
 
