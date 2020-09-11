@@ -98,11 +98,11 @@
       box-sizing: border-box;
       display: block;
       height: 100%;
-      left: 0%;
       position: absolute;
       top: 0%;
       width: 100%;
       border-radius: 0px;
+      left: -0.19%;
     }
     @keyframes gwd-gen-okwbgwdanimation_gwd-keyframes {
       0% {
@@ -160,6 +160,93 @@
     #page1.gwd-play-animation .gwd-gen-1sxmgwdanimation {
       animation: 1.7s linear 1s 1 normal forwards running gwd-gen-1sxmgwdanimation_gwd-keyframes;
     }
+    @keyframes gwd-gen-1b5egwdanimation_gwd-keyframes {
+      0% {
+        transform: translate3d(4px, 1px, 0px);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: translate3d(4px, 1px, 0px);
+        animation-timing-function: linear;
+      }
+    }
+    .gwd-play-animation [data-gwd-group="Group3"] .gwd-gen-1b5egwdanimation {
+      animation: 1s linear 0s 1 normal forwards running gwd-gen-1b5egwdanimation_gwd-keyframes;
+    }
+    @keyframes gwd-gen-1f65gwdanimation_gwd-keyframes {
+      0% {
+        transform: translate3d(4px, 1px, 0px) rotateZ(-0.0132504deg);
+        animation-timing-function: linear;
+      }
+      45.4545% {
+        transform: translate3d(4px, 1px, 0px) rotateZ(-0.0132504deg);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: translate3d(4px, 1px, 0px) rotateZ(-0.0132504deg);
+        animation-timing-function: linear;
+      }
+    }
+    .gwd-play-animation [data-gwd-group="Group3"] .gwd-gen-1f65gwdanimation {
+      animation: 2.2s linear 0s 1 normal forwards running gwd-gen-1f65gwdanimation_gwd-keyframes;
+    }
+    [data-gwd-group="Group3"] .gwd-grp-iu4w.gwd-rect-1wyf {
+      position: absolute;
+      width: 142.286px;
+      height: 41.143px;
+      box-sizing: border-box;
+      border-width: 1px;
+      border-style: solid;
+      border-image-source: none;
+      border-image-width: 1;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-color: rgb(202, 34, 34);
+      background-image: none;
+      background-color: rgb(35, 60, 158);
+      transform-style: preserve-3d;
+      transform: translate3d(4px, 1px, 0px) rotateZ(-0.0132504deg);
+      left: -3.99524px;
+      top: -0.983548px;
+    }
+    [data-gwd-group="Group3"] .gwd-grp-iu4w.gwd-span-torq {
+      position: absolute;
+      font-family: Arial;
+      font-size: 24px;
+      color: rgb(221, 222, 228);
+      transform-style: preserve-3d;
+      transform: translate3d(4px, 1px, 0px);
+      left: 29.0048px;
+      top: 8.01645px;
+    }
+    [data-gwd-group="Group3"] {
+      width: 142.296px;
+      height: 41.1758px;
+    }
+    .gwd-div-fr3z {
+      position: absolute;
+      left: -133px;
+      top: 63px;
+      transform-style: preserve-3d;
+      transform: translate3d(0px, 0px, 0px);
+    }
+    @keyframes gwd-gen-hg9mgwdanimation_gwd-keyframes {
+      0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: linear;
+      }
+      45.4545% {
+        transform: translate3d(223px, 5px, 0px);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: translate3d(223px, 5px, 0px);
+        animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-hg9mgwdanimation {
+      animation: 2.2s linear 0s 1 normal forwards running gwd-gen-hg9mgwdanimation_gwd-keyframes;
+    }
   </style>
   <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
   <script data-source="gwd_webcomponents_v1_min.js" data-version="2" data-exports-type="gwd_webcomponents_v1" src="gwd_webcomponents_v1_min.js"></script>
@@ -168,11 +255,17 @@
   <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-google-ad" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
   <script data-source="gwdgooglead_min.js" data-version="8" data-exports-type="gwd-google-ad" src="gwdgooglead_min.js"></script>
   <script data-source="gwdimage_min.js" data-version="15" data-exports-type="gwd-image" src="gwdimage_min.js"></script>
+  <script type="text/javascript" src="groups_runtime.min.1.0.js" gwd-groups-version="1.0"></script>
+  <script type="text/javascript" src="gwdid.min.1.0.js" gwd-gwdid-version="1.0"></script>
   <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
   <script type="text/javascript" gwd-events="handlers">
     gwd.auto_BodyClick = function(event) {
       // GWD Predefined Function
       gwd.actions.gwdGoogleAd.exit('gwd-ad', 'gad', 'https://www.decathlon.cz', true, true, 'page1');
+    };
+    gwd.auto__Group3_TestMouseover = function(event) {
+      // GWD Predefined Function
+      gwd.actions.events.setInlineStyle(' Group3 test', 'transition: all 0.5s ease-out; background-color:  red;');
     };
   </script>
   <script type="text/javascript" gwd-events="registration">
@@ -180,9 +273,11 @@
     // This script block is auto-generated. Please do not edit!
     gwd.actions.events.registerEventHandlers = function(event) {
       gwd.actions.events.addHandler('document.body', 'click', gwd.auto_BodyClick, false);
+      gwd.actions.events.addHandler(' Group3 test', 'mouseover', gwd.auto__Group3_TestMouseover, false);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
       gwd.actions.events.removeHandler('document.body', 'click', gwd.auto_BodyClick, false);
+      gwd.actions.events.removeHandler(' Group3 test', 'mouseover', gwd.auto__Group3_TestMouseover, false);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
@@ -190,13 +285,20 @@
 </head>
 
 <body>
+  <template id="gwd-group-definitions">
+    <div data-gwd-group-def="Group3" data-gwd-group-class="gwd-grp-iu4w" style="display: none;">
+      <svg data-gwd-shape="rectangle" class="gwd-rect-1wyf gwd-gen-1f65gwdanimation gwd-grp-iu4w" data-gwd-grp-id="test"></svg><span class="gwd-span-torq gwd-gen-1b5egwdanimation gwd-grp-iu4w">Button</span></div>
+  </template>
   <gwd-google-ad id="gwd-ad" polite-load="">
+    <gwd-metric-configuration></gwd-metric-configuration>
     <gwd-pagedeck class="gwd-page-container" id="pagedeck">
       <gwd-page id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox" data-gwd-width="300px" data-gwd-height="250px">
         <div class="gwd-page-content gwd-page-size">
           <gwd-image id="banner_300-250" source="assets/banner_300-250.jpeg" scaling="stretch" class="gwd-image-1biv"></gwd-image>
           <div class="gwd-div-a318 gwd-gen-okwbgwdanimation" id="btn"><span class="gwd-span-1ify">Shop now</span></div>
-          <svg data-gwd-shape="rectangle" class="gwd-rect-rch2"></svg><span class="gwd-span-8dle gwd-gen-1sxmgwdanimation">Some catchy title</span></div>
+          <svg data-gwd-shape="rectangle" class="gwd-rect-rch2"></svg><span class="gwd-span-8dle gwd-gen-1sxmgwdanimation">Some catchy title</span>
+          <div class="gwd-div-fr3z gwd-gen-hg9mgwdanimation" data-gwd-group="Group3"></div>
+        </div>
       </gwd-page>
     </gwd-pagedeck>
     <gwd-exit metric="gad" url="https://www.decathlon.cz"></gwd-exit>
